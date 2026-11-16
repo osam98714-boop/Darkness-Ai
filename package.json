@@ -1,0 +1,25 @@
+{
+  "name": "Darkness Bot",
+  "version": "1.0.1",
+  "description": "Darkness Bot — A fast and powerful WhatsApp bot packed with downloaders, AI tools, media editing, and a flexible plugin system. Built for performance and easy customization.",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "baileys": "npm:@whiskeysockets/baileys@latest",
+    "cheerio": "^1.2.0",
+    "ffmpeg": "^0.0.4",
+    "meowsab": "github:deveni0/meowsab",
+    "repossess": "latest",
+    "qs": "^6.16.1",
+    "sharp": "^0.35.5",
+    "undici": "^8.12.2"
+  }
+}
